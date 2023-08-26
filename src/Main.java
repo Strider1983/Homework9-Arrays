@@ -44,6 +44,16 @@ public class Main {
         System.out.println("Задача №3");
         double everPay = totalPay / arr.length;
         System.out.println("Средняя сумма трат за месяц составила " + everPay + " рублей");
+        System.out.println("___________________");
+        System.out.println("Задача №4");
+        char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+        for (int i = reverseFullName.length - 1; i >=0 ; i = i - 1) {
+            if (i == 0) {
+                System.out.println(reverseFullName[i]);
+                break;
+            }
+            System.out.print(reverseFullName[i]);
+        }
     }
 
 }
