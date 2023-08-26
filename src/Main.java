@@ -22,7 +22,24 @@ public class Main {
             totalPay = totalPay + arr[i];
         }
         System.out.println("Сумма трат за месяц составила " + totalPay + " рублей");
-
+        System.out.println("___________________");
+        System.out.println("Задача №2");
+        int maxPay = 99999;
+        for (int i = 0; i < arr.length; i++) {
+            final int current = arr[i];
+            if (current > maxPay) {
+                maxPay = current;
+            }
+        }
+        System.out.println("Максимальная сумма трат за день составила " + maxPay + " рублей");
+        int minPay = 200001;
+        for (int i = 0; i < arr.length; i++) {
+            final int current = arr[i];
+            if (current < minPay) {
+                minPay = current;
+            }
+        }
+        System.out.println("Минимальная сумма трат за день составила " + minPay + " рублей");
     }
 
 }
