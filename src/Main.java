@@ -40,6 +40,10 @@ public class Main {
             }
         }
         System.out.println("Минимальная сумма трат за день составила " + minPay + " рублей");
+        System.out.println("___________________");
+        System.out.println("Задача №3");
+        double everPay = totalPay / arr.length;
+        System.out.println("Средняя сумма трат за месяц составила " + everPay + " рублей");
     }
 
 }
